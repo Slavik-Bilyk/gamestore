@@ -1,0 +1,43 @@
+
+  .BestSellerCardList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .blockCard {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blockCard img:hover {
+    transform: scale(1.05);
+  }
+  
+  .blockCard img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .blockCard h3 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .blockCard p {
+    font-size: 15px;
+    color: #ffffff;
+  }
+  
