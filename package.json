@@ -2,7 +2,7 @@
   "name": "gamestore",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Slavik-Bilyk.github.io/gamestore",
+  "homepage": "https://Slavik-Bilyk.github.io/gamestore",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
