@@ -1,0 +1,69 @@
+.bgContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../images/bg.png');
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    position: relative;
+  }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block {
+    z-index: 999;
+    position: absolute;
+    background-color: blueviolet;
+    margin-top: 110px;
+    height: 400px;
+    width: 550px;
+    border-radius: 25px;
+}
+
+.block div {
+    margin-left: 70px;
+}
+
+.block p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.block h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.block button {
+    background-color: black;
+    color:blueviolet;
+    font-weight: 700;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.block button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.blockImg {
+    width: 550px;
+    position: absolute;
+    margin-left: 600px;
+    height: 700px;
+    margin-top: 110px;
+    border-radius: 25px;
+}
