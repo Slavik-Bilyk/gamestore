@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/gamestore/static/css/main.e6c13ad2.css",
-    "main.js": "/gamestore/static/js/main.06f7cd77.js",
+    "main.css": "/gamestore/static/css/main.3541a335.css",
+    "main.js": "/gamestore/static/js/main.caabfe9b.js",
+    "static/media/bg.png": "/gamestore/static/media/bg.f5fd0cbfc12f984b11a8.png",
+    "static/media/blockImg.png": "/gamestore/static/media/blockImg.74c92a02b002f2faed35.png",
     "index.html": "/gamestore/index.html",
-    "main.e6c13ad2.css.map": "/gamestore/static/css/main.e6c13ad2.css.map",
-    "main.06f7cd77.js.map": "/gamestore/static/js/main.06f7cd77.js.map"
+    "main.3541a335.css.map": "/gamestore/static/css/main.3541a335.css.map",
+    "main.caabfe9b.js.map": "/gamestore/static/js/main.caabfe9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.06f7cd77.js"
+    "static/css/main.3541a335.css",
+    "static/js/main.caabfe9b.js"
   ]
 }
