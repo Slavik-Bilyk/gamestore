@@ -1,0 +1,38 @@
+.bg {
+    background: linear-gradient(90.21deg, #2d1935 -5.91%, #4e0f4d 111.58%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+   }
+
+.navigation {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.navigationItem {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #fff;
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+.navigationItem:hover {
+    color: blueviolet;
+}
+
+
+.iconText {
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconText .navIcons {
+    margin-right: 5px;
+  }
