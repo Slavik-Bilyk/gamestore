@@ -12,60 +12,70 @@ const bestSellersList = [
         img: sellerCard,
         name: 'Playbox XZ Gold Edition',
         price: '$1,000,000',
+        newPrice: null,
         sale: false
     },
     {
         img: sellerCard,
         name: 'Echo Headset',
         price: '$39.99',
+        newPrice: null,
         sale: false
     },
     {
         img: sellerCard,
         name: 'Mach Gaming Chair',
-        price: '$116.99',
+        price: '$129.99',
+        newPrice: '$116.99',
         sale: true
     },
     {
         img: sellerCard,
         name: 'X-2 Wireless Mouse',
         price: '$24.99',
+        newPrice: null,
         sale: false
     },
     {
         img: sellerCard,
         name: 'Spartan Mechanical',
-        price: '$40.49',
+        price: '$44.99',
+        newPrice: '$40.49',
         sale: true
     },
     {
         img: sellerCard,
         name: 'Raptor',
-        price: '$26.99',
+        price: '$29.99',
+        newPrice: '$26.99',
         sale: true
     },
     { 
         img: sellerCard,
         name: 'Wave',
         price: '$29.99',
+        newPrice: null,
         sale: false
     },
     {
         img: sellerCard,
         name: 'Wave Gen RX',
         price: '$579.99',
+        newPrice: null,
         sale: false
     },
     {
         img: sellerCard,
         name: 'Ancient Souls',
         price: '$39.99',
+        newPrice: null,
         sale: false
     }, 
     {
         img: sellerCard,
         name: 'Chronosplit',
         price: '$39.99',
+        newPrice: null,
         sale: false
     }
 ]
