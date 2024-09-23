@@ -3,23 +3,19 @@ import styles from './BestSellerCard.module.css';
 import { Carousel } from 'nuka-carousel';
 
 
-
 const BestSellerCard = ({ sellers }) => {
   
 
   return (
-    <div >
-       <Carousel 
-       showArrows  
-       wrapAround
-        slidesToShow={1}
-        slidesToScroll={1}
-        
+    <div>
+       <Carousel
+       showArrows 
          >
 
        {sellers.map(seller => (
           <div className={styles.blockCard} key={seller.name}>
-            {seller.sale && <span>SALE</span> }
+         
+           {seller.sale && <span>SALE</span> }
            <img src={seller.img} alt={seller.name} />
             <h3>{seller.name}</h3>
             {seller.sale ? (
@@ -31,8 +27,8 @@ const BestSellerCard = ({ sellers }) => {
             <p>{seller.price}</p>
             )}
               <button>Add to Cart</button>
+           </div>
           
-          </div>
          
         ))}
 
