@@ -37,3 +37,10 @@
     border: 1px solid blueviolet;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .bg {
+      display: none;
+    }
+
+}

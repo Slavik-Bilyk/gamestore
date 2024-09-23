@@ -149,3 +149,26 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 480px) {
+    .block {
+        width: 100%;
+        margin: 0 auto;
+}
+
+.bg {
+    height: 600px;
+}
+
+.bgImg {
+    display: none;
+}
+
+.bgImg2 {
+    display: none;
+}
+.bgImg3 {
+    display: none;
+}
+
+}

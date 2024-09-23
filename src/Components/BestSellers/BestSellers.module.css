@@ -9,6 +9,9 @@
     background-attachment: fixed; 
     position: relative;
   }
+
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -111,3 +114,40 @@
     margin-bottom: 20px;
 }
 
+@media (max-width: 480px)  {
+    .block {
+        width: 80%;
+        height: 300px;
+        padding: 10px;
+        margin: 20px auto;
+        margin-left: 20px;
+    }
+
+    .block h1 {
+        font-size: 30px;
+    }
+
+    .block p {
+        font-size: 18px;
+    }
+
+    .block button {
+        font-size: 16px;
+    }
+
+    .block button:hover {
+        background-color: transparent;
+    }
+
+    
+
+    .blockBestSellers h2 {
+        font-size: 30px;
+        margin: 50px auto;
+    }
+
+    .blockBestSellers button {
+        font-size: 14px;
+    }
+
+}
