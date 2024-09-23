@@ -5,6 +5,7 @@ import WeeksDeals from '../../Components/WeeksDeals/WeeksDeals'
 import BestSellerCard from '../../Components/BestSellers/BestSellerCard/BestSellerCard'
 import Upgrade from '../../Components/Upgrade/Upgrade'
 import SpendSave from '../../Components/Spend&Save/SpendSave'
+import Newsletter from '../../Components/Newsletter/Newsletter'
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
     <WeeksDeals/>
     <Upgrade/>
     <SpendSave/>
+    <Newsletter/>
    </div>
   )
 }
