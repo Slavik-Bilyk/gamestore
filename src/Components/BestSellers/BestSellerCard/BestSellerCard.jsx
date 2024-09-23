@@ -2,8 +2,6 @@ import React from 'react';
 import styles from './BestSellerCard.module.css';
 import { Carousel } from 'nuka-carousel';
 
-
-
 const BestSellerCard = ({ sellers }) => {
   
 
