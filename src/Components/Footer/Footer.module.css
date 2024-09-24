@@ -1,0 +1,86 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.bg {
+    background-color: #000;
+    color: #fff;
+}
+
+.navigationList, .policyList, .storeList {
+    list-style: none;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
+
+}
+
+.navigationList li, .policyList li, .storeList li {
+    margin-top: 30px;
+}
+
+.logo {
+    margin-left: 40px;
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.bg p {
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .logo {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .bg p {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .navigationList, .policyList, .storeList {
+        margin-bottom: 15px;
+    }
+
+    .navigationList li, .policyList li, .storeList li {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 40px;
+        margin-left: 30px;
+    }
+
+    .bg p {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+
+    .container {
+        display: inline-block;
+    }
+
+    
+    .navigationList, .policyList, .storeList  {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .navigationList li, .policyList li, .storeList li {
+        margin-top: 10px;
+    }
+}
