@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gamestore/static/css/main.7bc530ac.css",
-    "main.js": "/gamestore/static/js/main.82486e7a.js",
+    "main.css": "/gamestore/static/css/main.963aeccc.css",
+    "main.js": "/gamestore/static/js/main.f2c65e48.js",
     "static/media/bg.png": "/gamestore/static/media/bg.f5fd0cbfc12f984b11a8.png",
     "static/media/blockImg.png": "/gamestore/static/media/blockImg.74c92a02b002f2faed35.png",
     "static/media/bg3.png": "/gamestore/static/media/bg3.c18df8dec84b77d681a3.png",
@@ -27,11 +27,11 @@
     "static/media/sellerCard7.png": "/gamestore/static/media/sellerCard7.3639722a966345a6c544.png",
     "static/media/sellerCard8.png": "/gamestore/static/media/sellerCard8.af48f20749701ce125f4.png",
     "index.html": "/gamestore/index.html",
-    "main.7bc530ac.css.map": "/gamestore/static/css/main.7bc530ac.css.map",
-    "main.82486e7a.js.map": "/gamestore/static/js/main.82486e7a.js.map"
+    "main.963aeccc.css.map": "/gamestore/static/css/main.963aeccc.css.map",
+    "main.f2c65e48.js.map": "/gamestore/static/js/main.f2c65e48.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc530ac.css",
-    "static/js/main.82486e7a.js"
+    "static/css/main.963aeccc.css",
+    "static/js/main.f2c65e48.js"
   ]
 }
