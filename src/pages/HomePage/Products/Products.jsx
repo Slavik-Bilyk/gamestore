@@ -1,5 +1,4 @@
 import React from 'react'
-import AppBar from '../../../Components/AppBar/AppBar'
 import Footer from '../../../Components/Footer/Footer'
 import AllProducts from '../../../Components/AllProducts/AllProducts'
 

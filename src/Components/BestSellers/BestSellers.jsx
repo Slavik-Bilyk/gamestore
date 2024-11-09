@@ -103,7 +103,7 @@ const bestSellersList = [
          </div>
         </div>
         <div>
-          <img className={styles.blockImg} src={blockImg}/>
+          <img className={styles.blockImg} alt='' src={blockImg}/>
         </div>
       </div>
     </div>

@@ -91,8 +91,35 @@ const AllProducts = () => {
 
   return (
     <div className={styles.bg}>
+      <div className={styles.filter}>
+       <h3>Browse</h3> 
+       <ul className={styles.filterList}>
+        <li>
+            All Products
+        </li>
+        <li>
+            Accessories
+        </li>
+        <li>
+            Best Sellers
+        </li>
+        <li>
+            Consoles
+        </li>
+        <li>
+             Controllers
+        </li>
+        <li>
+            Games
+        </li>
+        <li>
+            On Sale
+        </li>
+       </ul>
+      </div>
       <div className={styles.container}>
         <h1>All Products</h1>
+        <p>{sellers.length} products</p>
         <div className={styles.cardsContainer}>
             <AllProductsCard sellers={sellers} />
         </div>
